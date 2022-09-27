@@ -7,11 +7,20 @@ Implementation of "Robot Reinforcement Learning on the Constraint Manifold"
 [[paper]](https://www.ias.informatik.tu-darmstadt.de/uploads/Team/PuzeLiu/CORL_2021_Learning_on_the_Manifold.pdf)
 [[website]](https://sites.google.com/view/robot-air-hockey/atacom)
 
-## Install
+## Install (for python 3.7, 3.8)
 ```python
 pip install -e .
 conda install pinocchio -c conda-forge
 ```
+
+## Install (for python 3.6)
+```python
+pip install -e .
+conda install pinocchio -c conda-forge
+pip3 install torch==1.2.0+cpu torchvision==0.4.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+Looking in links: https://download.pytorch.org/whl/torch_stable.html
+```
+
 
 ## Run Examples
 ```python
