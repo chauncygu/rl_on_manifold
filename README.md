@@ -10,6 +10,7 @@ Implementation of "Robot Reinforcement Learning on the Constraint Manifold"
 ## Install
 ```python
 pip install -e .
+conda install pinocchio -c conda-forge
 ```
 
 ## Run Examples
