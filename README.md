@@ -32,6 +32,10 @@ Environment options [A, E, T], algorithms options [TRPO, PPO, SAC, DDPG, TD3]
 python circle_exp.py --render --env A --alg TRPO
 ```
 
+```python
+python circle_exp.py --render --env A --alg PPO
+```
+
 ### PlanarAirHockey Environment. 
 Environment options [H, D, UH, UD], algorithms options [TRPO, PPO, SAC, DDPG, TD3]
 ```python
